@@ -1,0 +1,1 @@
+ps -ef | grep /home/lanling/anaconda3/envs/GPU-info/bin/python | awk  '{print $2}' | xargs kill
